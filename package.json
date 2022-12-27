@@ -1,0 +1,22 @@
+{
+  "name": "@noir-lang/noir-source-resolver",
+  "version": "1.0.0",
+  "main": "./nodejs/index_nodejs.js",
+  "module": "./module/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:node": "tsc -p tsconfig.cjs.json",
+    "build:web": "tsc -p tsconfig.esm.json",
+    "build": "npm run build:web && npm run build:node"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "typescript": "4.9.4"
+  },
+  "files": [
+    "nodejs",
+    "web",
+    "src",
+    "package.json"
+  ]
+}
