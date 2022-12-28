@@ -15,7 +15,7 @@
   },
   "files": [
     "nodejs",
-    "web",
+    "module",
     "src",
     "package.json"
   ]
