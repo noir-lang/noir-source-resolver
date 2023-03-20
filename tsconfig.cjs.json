@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "es2018",
         "moduleResolution": "node",
-        "outDir": "nodejs",
+        "outDir": "lib",
         "module": "commonjs",
         "strict": true,
         "esModuleInterop": true,
@@ -14,8 +14,5 @@
     },
     "include": [
         "src"
-    ],
-    "exclude": [
-        "src/index.ts"
     ]
 }
