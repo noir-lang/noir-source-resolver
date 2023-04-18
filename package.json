@@ -2,7 +2,6 @@
   "name": "@noir-lang/noir-source-resolver",
   "version": "1.1.1",
   "license": "MIT",
-  
   "main": "./lib/index_node.js",
   "module": "./lib/index.js",
   "browser": "./lib/index.js",
@@ -11,12 +10,12 @@
       "require": "./lib/index_node.js",
       "import": "./lib/index.js"
     }
-  },  
+  },
   "scripts": {
     "clean-modules": "rm -rf lib",
     "build:node": "tsc -p tsconfig.cjs.json",
     "build:web": "tsc -p tsconfig.esm.json",
-    "build": "npm run clean-modules && tsc -p tsconfig.cjs.json",
+    "build": "npm run clean-modules && npm run build:node && npm run build:web",
     "test": "node_modules/.bin/ava"
   },
   "devDependencies": {
