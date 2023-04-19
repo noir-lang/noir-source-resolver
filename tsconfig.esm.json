@@ -3,7 +3,7 @@
     "target": "es2018",
     "moduleResolution": "node",
     "outDir": "lib",
-    "module": "commonjs",
+    "module": "ES6",
     "strict": true,
     "esModuleInterop": true,
     "noImplicitAny": true,
@@ -12,5 +12,5 @@
     "sourceMap": true,
     "importHelpers": true
   },
-  "include": ["src"]
+  "include": ["src/index.ts"]
 }
