@@ -25,6 +25,7 @@
   },
   "files": [
     "lib",
+    "lib-node",
     "src",
     "package.json"
   ]
