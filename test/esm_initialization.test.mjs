@@ -1,11 +1,11 @@
 /**
- *  Below tests are commented because they require 
+ *  Below tests are commented because they require
  *  "type": "module", in package.json
  *  Seems that both CJS and MJS modes are not going to work.
 */
 import test from 'ava';
 
-import { initialiseResolver, read_file } from "../lib/index.js";
+import { initialiseResolver, read_file } from "../lib-node/index.js";
 
 test('It communicates error when read_file was called before initialiseResolver.', t => {
 

@@ -1,6 +1,6 @@
 const test = require('ava');
 
-const { initialiseResolver, read_file } = require("../lib/index_node.js");
+const { initialiseResolver, read_file } = require("../lib-node/index_node.js");
 
 test('It reads file from file system within read_file using default implementation.', t => {
 
